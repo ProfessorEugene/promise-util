@@ -1,0 +1,36 @@
+{
+  "name": "promise-util",
+  "description": "ES6 Promise execution utility library",
+  "version": "1.0.0-SNAPSHOT",
+  "license": "GPL-3.0",
+  "main": "lib/PromiseUtil.js",
+  "author": {
+    "name": "Eugene Rachitskiy",
+    "email": "eugene@rachitskiy.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-release": "pulsepointinc/node-release#node-release-1.0.6",
+    "jsdoc": "",
+    "debug": "",
+    "mocha": "",
+    "chai": "",
+    "eslint": "",
+    "eslint-plugin-import": "",
+    "eslint-config-airbnb-base": ""
+  },
+  "scripts": {
+    "jsdoc": "jsdoc lib/PromiseUtil.js -d docs/",
+    "lint": "eslint .",
+    "test": "mocha test",
+    "release-build": "npm run lint && npm run test && npm run jsdoc",
+    "release": "node node_modules/node-release/Release.js -p `pwd` --debug true --build \"npm run release-build\""
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": "airbnb-base",
+    "env": {
+      "node": true
+    }
+  }
+}
