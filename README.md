@@ -20,7 +20,7 @@ npm install ProfessorEugene/promise-util
 ```
 ### API ###
 
-Complete API documentation is available [here](https://professoreugene.github.io/promise-util/)
+Complete API documentation is available [here](https://professoreugene.github.io/promise-util/index.html)
 
 ### Example: Run promises in batches of X ###
 
