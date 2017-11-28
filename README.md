@@ -24,7 +24,7 @@ Complete API documentation is available [here](https://professoreugene.github.io
 
 ### Example: Run promises in batches of X ###
 
-```
+```javascript
 const PromiseUtil = require('promise-util');
 const promise = result => new Promise(r => setTimeout(() => r(result)));
 PromiseUtil.allLimit({
