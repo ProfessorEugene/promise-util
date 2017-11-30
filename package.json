@@ -1,7 +1,7 @@
 {
   "name": "promise-util",
   "description": "ES6 Promise execution utility library",
-  "version": "1.0.1-SNAPSHOT",
+  "version": "1.0.1",
   "license": "GPL-3.0",
   "main": "lib/PromiseUtil.js",
   "author": {
